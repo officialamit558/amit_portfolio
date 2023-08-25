@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: blue;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: red;
+    color: white;
+}
+/* ... (your existing CSS code) ... */
+
+/* Styling for the Send Message section */
+#email {
+    background-color: #04021b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#email h2 {
+    color: #0adfcd;
+}
+
+#email p {
+    color: #e60606;
+    margin-bottom: 20px;
+}
+
+#email form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#email label {
+    font-weight: bold;
+    color: #08f36a;
+    margin-bottom: 5px;
+}
+
+#email input[type="email"],
+#email input[type="text"],
+#email textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#email textarea {
+    resize: vertical;
+}
+
+#email input[type="submit"] {
+    background-color: #e7093a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#email input[type="submit"]:hover {
+    background-color: #09b5e9;
+}
+
+
+
