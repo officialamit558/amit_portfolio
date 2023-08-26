@@ -106,5 +106,86 @@ footer {
     background-color: #09b5e9;
 }
 
+/* Header Styles */
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #e90c31;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0beb43;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e70e2b;
+}
+
+/* Section Styles */
+
+section {
+    background-color: #04082c;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Skills Chart Styles */
+
+#skillsChartContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    background-color: #040113;
+    color: #ff071bfd;
+    padding: 10px 0;
+}
+
+/* Bar Chart Styles */
+
+#skillsChart {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Targeting specific headers in the skills section */
+#skills h2 {
+    color: #f5e508; /* Change this to your desired color for h2 */
+}
+
+#skills h3 {
+    color: #E83E8C; /* Change this to your desired color for h3 */
+}
+
+#skills h4 {
+    color: #4eeb05; /* Change this to your desired color for h4 */
+}
+
 
 
