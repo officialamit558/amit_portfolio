@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags and stylesheets -->
+    <style>/* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Style the navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1DB954;
+            padding: 10px 20px;
+            color: white;
+        }
+        
+        .logo a {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        
+        .nav-links li {
+            margin-right: 20px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #0E7E31;
+        }
+        /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar styles */
+/* ... (previous navigation styles) ... */
+
+/* Songs section styles */
+.songs-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.song {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.song img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.song h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.song p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #888;
+}
+
+        </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Spotify Clone</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Playlists</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+
+    <section class="songs-section">
+        <div class="song">
+            <img src="https://th.bing.com/th/id/OIP.vPpOiZeY5nEaPCRw7EuySQHaFj?w=211&h=180&c=7&r=0&o=5&pid=1.7" alt="Song 1">
+            <h3><a href="#">Song Title 1</a></h3>
+            <p>Artist Name 1</p>
+        </div>
+        <div class="song">
+            <img src="song2.jpg" alt="Song 2">
+            <h3><a href="#">Song Title 2</a></h3>
+            <p>Artist Name 2</p>
+        </div>
+        <!-- Add more song entries as needed -->
+    </section>
+
+
+    <!-- Rest of your content goes here -->
+</body>
+</html>

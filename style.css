@@ -1,0 +1,250 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: blue;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: red;
+    color: white;
+}
+/* ... (your existing CSS code) ... */
+
+/* Styling for the Send Message section */
+#email {
+    background-color: #04021b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#email h2 {
+    color: #0adfcd;
+}
+
+#email p {
+    color: #e60606;
+    margin-bottom: 20px;
+}
+
+#email form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#email label {
+    font-weight: bold;
+    color: #08f36a;
+    margin-bottom: 5px;
+}
+
+#email input[type="email"],
+#email input[type="text"],
+#email textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#email textarea {
+    resize: vertical;
+}
+
+#email input[type="submit"] {
+    background-color: #e7093a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#email input[type="submit"]:hover {
+    background-color: #09b5e9;
+}
+
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+    background-color: #b1f004;
+}
+
+/* Header Styles */
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #e90c31;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #2e13df;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e70e2b;
+}
+
+/* Section Styles */
+
+section {
+    background-color: #04082c;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Skills Chart Styles */
+
+#skillsChartContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    background-color: #040113;
+    color: #ff071bfd;
+    padding: 10px 0;
+}
+
+/* Bar Chart Styles */
+
+#skillsChart {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Targeting specific headers in the skills section */
+#skills h2 {
+    color: #f5e508; /* Change this to your desired color for h2 */
+}
+
+#skills h3 {
+    color: #E83E8C; /* Change this to your desired color for h3 */
+}
+
+#skills h4 {
+    color: #4eeb05; /* Change this to your desired color for h4 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
